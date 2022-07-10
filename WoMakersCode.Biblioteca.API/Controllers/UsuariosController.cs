@@ -18,12 +18,6 @@ namespace WoMakersCode.Biblioteca.API.Controllers
             _useCaseAsync = useCaseAsync;
         }
 
-        //[HttpGet]
-        //public string Get()
-        //{
-        //    return "Novo Usuário";
-        //}
-
         [HttpPost]
         public async Task<ActionResult<AdicionarUsuarioResponse>> Post([FromBody] AdicionarUsuarioRequest request)
         {

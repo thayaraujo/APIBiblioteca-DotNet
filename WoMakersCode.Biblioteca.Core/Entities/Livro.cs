@@ -12,7 +12,7 @@ namespace WoMakersCode.Biblioteca.Core.Entities
         public string Titulo { get; set; }
         public int QuantidadeDisponivel { get; set; }
         public int IdAutor { get; set; }
-        //propriedade de navegação: quando trazer os registros do meu banco consigo trazer os dados da tabela autor vinculados nessa tabela:
+        //Autor é uma propriedade de navegação: quando trazer os registros do meu banco consigo trazer os dados da tabela autor vinculados nessa tabela
         public Autor Autor { get; set; }
     }
 }
